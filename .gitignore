@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# If you're using SQLite, ignore the default DB
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# VS Code files (optional, but recommended if you're using it)
+.vscode/
+
+# PyCharm files
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+
+# GitHub Codespaces
+.devcontainer/
+
+# Pycharm
+*.iml
+
+# Optional: if you generate collected static files locally
+/static/
+
+# Node modules (if you’re using npm in your project)
+node_modules/
