@@ -1,0 +1,13 @@
+#custom-color {
+  background-color: #053614 !important;
+}
+
+.custom-input {
+  background-color: white;
+  color: black;
+}
+
+.custom-input::placeholder {
+  color: black;
+  opacity: 1; /* makes sure it's fully visible */
+}
